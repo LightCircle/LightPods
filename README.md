@@ -9,7 +9,14 @@ SmartPods
 #### 新建工程
 1. 使用xcode创建工程
 2. 进入工程，生成pod文件
+
     $ pod init
+
+3. 指定SmartSDK依赖
+
+    target "LikeIOS" do
+      pod 'SmartSDK', '~> 0.0.1'
+    end
 
 #### 安装pod依赖
     $ pod install
