@@ -41,3 +41,11 @@ http://cocoapods.org/
 
 #### gem本身的升级
     $ sudo gem update --system
+
+## pod问题对应
+#### 执行pod命令出现警告
+    warning: Insecure world writable dir /usr/local in PATH, mode 040777
+
+要去除这个警告，需要更改/usr/local的权限，一句话：
+
+    $ sudo chmod go-w /usr/local
