@@ -18,7 +18,7 @@ LightPods
     $ vi Podfile
     
     target "LikeIOS" do
-      pod 'LightSDK', '~> 0.0.1'
+      pod 'LightSDKIOS', '~> 0.0.1'
     end
 
 #### 安装pod依赖
