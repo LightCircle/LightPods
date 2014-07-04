@@ -7,13 +7,16 @@ LightPods
     $ pod repo add LightSDKIOS https://github.com/LightCircle/LightPods
 
 #### 新建工程
-1. 使用xcode创建工程
-2. 进入工程，生成pod文件
+使用xcode创建工程
+
+进入工程，生成pod文件
 
     $ pod init
 
-3. 指定LightSDK依赖
+指定LightSDK依赖
 
+    $ vi Podfile
+    
     target "LikeIOS" do
       pod 'LightSDK', '~> 0.0.1'
     end
