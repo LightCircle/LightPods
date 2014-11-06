@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UI' do |ss|
-    ss.source_files = 'LightSDK/UI/**/*.{h,m,storyboard}'
+    ss.source_files = 'LightSDK/UI/**/*.{h,m}'
     ss.resources    = 'LightSDK/UI/**/*.{storyboard}'
   end
 
