@@ -43,6 +43,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'UI' do |ss|
     ss.source_files = 'LightSDK/UI/**/*.{h,m,storyboard}'
+    ss.resources    = 'LightSDK/UI/**/*.{storyboard}'
   end
 
   s.dependency 'AFNetworking',               '2.4.1'
