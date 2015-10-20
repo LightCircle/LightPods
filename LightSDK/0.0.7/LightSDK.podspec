@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "LightSDK"
-  s.version          = "0.0.6"
+  s.version          = "0.0.7"
   s.summary          = "iOS SDK for Light."
   s.description      = <<-DESC
                        iOS SDK for Light.
@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
   end
 
   s.dependency 'AFNetworking',               '2.4.1'
-  s.dependency 'CocoaLumberjack',            '1.9'
+  s.dependency 'CocoaLumberjack',            '2.0'
   s.dependency 'SDWebImage',                 '3.7.1'
   s.dependency 'Underscore.m',               '0.2.1'
   s.dependency 'JSONModel',                  '1.0.1'
