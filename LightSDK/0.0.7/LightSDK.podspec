@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.screenshots      = "http://www.alphabets.com.cn/images/content/hi_1.png", "http://www.alphabets.com.cn/images/content/hi_4.jpg"
   s.license          = 'MIT'
   s.author           = { "fzcs" => "fzcs@live.cn" }
-  s.source           = { :git => "https://git.alphabets.cn/root/LightSDKIOS.git" }
+  s.source           = { :git => "https://github.com/LightCircle/LightSDKIOS.git" }
   s.social_media_url = 'http://www.alphabets.cn'
 
   s.platform     = :ios, '7.0'
