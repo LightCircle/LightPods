@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
   end
 
   s.dependency 'AFNetworking',               '~> 2.0'
-  s.dependency 'CocoaLumberjack',            '2.2.0'
+  s.dependency 'CocoaLumberjack',            '~> 2.0'
   s.dependency 'SDWebImage',                 '~> 3.0'
   s.dependency 'Underscore.m',               '0.2.1'
   s.dependency 'JSONModel',                  '1.1.2'
