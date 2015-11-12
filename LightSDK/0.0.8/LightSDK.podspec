@@ -46,10 +46,10 @@ Pod::Spec.new do |s|
     ss.resources    = 'LightSDK/UI/**/*.{png,storyboard,mp3}'
   end
 
-  s.dependency 'AFNetworking',               '~> 2.0'
-  s.dependency 'CocoaLumberjack',            '~> 2.2.0'
-  s.dependency 'SDWebImage',                 '~> 3.0'
-  s.dependency 'Underscore.m',               '~> 0.2.1'
-  s.dependency 'JSONModel',                  '~> 1.0'
-  s.dependency 'MBProgressHUD',              '~> 0.9.1'
+  s.dependency 'AFNetworking',               '2.6.2'
+  s.dependency 'CocoaLumberjack',            '2.2.0'
+  s.dependency 'SDWebImage',                 '3.7.3'
+  s.dependency 'Underscore.m',               '0.2.1'
+  s.dependency 'JSONModel',                  '1.1.2'
+  s.dependency 'MBProgressHUD',              '0.9.1'
 end
