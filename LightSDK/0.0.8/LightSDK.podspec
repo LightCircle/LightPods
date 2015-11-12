@@ -49,7 +49,7 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking',               '~> 2.0'
   s.dependency 'CocoaLumberjack',            '~> 2.0'
   s.dependency 'SDWebImage',                 '~> 3.0'
-  s.dependency 'Underscore.m',               '0.2.1'
-  s.dependency 'JSONModel',                  '1.1.2'
-  s.dependency 'MBProgressHUD',              '0.9.1'
+  s.dependency 'Underscore.m',               '~> 0.2'
+  s.dependency 'JSONModel',                  '~> 1.0'
+  s.dependency 'MBProgressHUD',              '~> 0.9'
 end
