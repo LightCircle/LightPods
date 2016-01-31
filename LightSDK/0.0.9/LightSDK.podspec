@@ -29,10 +29,6 @@ Pod::Spec.new do |s|
     ss.source_files = 'LightSDK/Entity/**/*.{h,m}'
   end
 
-  s.subspec 'Logger' do |ss|
-    ss.source_files = 'LightSDK/Logger/**/*.{h,m}'
-  end
-
   s.subspec 'Storable' do |ss|
     ss.source_files = 'LightSDK/Storable/**/*.{h,m}'
   end
@@ -47,7 +43,6 @@ Pod::Spec.new do |s|
   end
 
   s.dependency 'AFNetworking',               '2.6.2'
-  s.dependency 'CocoaLumberjack',            '1.9'
   s.dependency 'SDWebImage',                 '3.7.3'
   s.dependency 'Underscore.m',               '0.2.1'
   s.dependency 'JSONModel',                  '1.1.2'
