@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
   end
 
   s.dependency 'AFNetworking',               '3.1.0'
-  s.dependency 'SDWebImage',                 '3.8.0'
+  s.dependency 'SDWebImage',                 '3.7.3'
   s.dependency 'Underscore.m',               '0.2.1'
   s.dependency 'JSONModel',                  '1.3.0'
   s.dependency 'MBProgressHUD',              '1.0.0'
